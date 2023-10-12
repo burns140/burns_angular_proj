@@ -4,8 +4,8 @@
     border: 1px solid white;
     justify-content: space-between;
     position: absolute;
-    width: 100%;
     height: 55px;
+    width: calc(100% - 2px);
     top: 0;
     left: 0;
 }
@@ -22,6 +22,10 @@
     justify-content: center;
     border-right: 1px solid white;
     width: 100%;
+}
+
+.nav-item:last-child {
+    border-right: none;
 }
 
 .nav-link {
