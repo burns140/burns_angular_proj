@@ -3,7 +3,6 @@
         <img class="github-logo" src="../../../assets/github_logo.svg" >
     </a>
     <div class="nav-item" *ngFor="let section of sections">
-        <!-- <a href={{section.link}} class="nav-link">{{section.title}}</a> -->
         <a [routerLink]="section.link" routerLinkActive="active" class="nav-link">{{section.title}}</a>
     </div>
 </div>
